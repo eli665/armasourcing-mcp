@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.armasourcing/hire-filipino-virtual-assistants",
+  "title": "Hire Filipino Virtual Assistants (Armasourcing)",
+  "description": "Hire vetted Filipino virtual assistants: check pool depth, hiring process, terms, book a call.",
+  "repository": {
+    "url": "https://github.com/eli665/armasourcing-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://armasourcing.com",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chatgpt.armasourcing.com/mcp"
+    }
+  ]
+}
